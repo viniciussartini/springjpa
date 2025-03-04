@@ -230,21 +230,21 @@ classDiagram
 1. Abra o Postman.
 2. Envie as requisições para os endpoints da API.
     **Endpoints da API**
-    **Usuários:**
-    `GET /users` Lista todos os usuários.
-    `GET /users/{id}` Lista o usuário pelo id informado.
-    `POST /users`: Cadastra um novo usuário.
-    `PUT /users/{id}`: Atualiza as informações do usuário com id informado.
-    `DELETE /users/{id}`: Deleta usuário através do id informado.
-    **Produtos:**
-    `GET /products` Lista todos os produtos.
-    `GET /products/{id}` Lista o produto pelo id informado.
-    **Categorias:**
-    `GET /categories` Lista todas as categorias de produto.
-    `GET /categories/{id}` Lista a categoria de produto pelo id informado.
-    **Pedidos:**
-    `GET /orders` Lista todos os pedidos.
-    `GET /orders/{id}` Lista o pedido pelo id informado.
+    - **Usuários:**
+        - `GET /users` Lista todos os usuários.
+        - `GET /users/{id}` Lista o usuário pelo id informado.
+        - `POST /users`: Cadastra um novo usuário.
+        - `PUT /users/{id}`: Atualiza as informações do usuário com id informado.
+        - `DELETE /users/{id}`: Deleta usuário através do id informado.
+    - **Produtos:**
+        - `GET /products` Lista todos os produtos.
+        - `GET /products/{id}` Lista o produto pelo id informado.
+    - **Categorias:**
+        - `GET /categories` Lista todas as categorias de produto.
+        - `GET /categories/{id}` Lista a categoria de produto pelo id informado.
+    - **Pedidos:**
+        - `GET /orders` Lista todos os pedidos.
+        - `GET /orders/{id}` Lista o pedido pelo id informado.
 
 ## Próximos Passos
 
