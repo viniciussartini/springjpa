@@ -245,7 +245,3 @@ classDiagram
     - **Pedidos:**
         - `GET /orders` Lista todos os pedidos.
         - `GET /orders/{id}` Lista o pedido pelo id informado.
-
-## Próximos Passos
-
-1. Implementar os métodos `POST`, `PUT` e `DELETE` de produtos, categorias e pedidos.
